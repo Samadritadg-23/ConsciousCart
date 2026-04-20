@@ -1,16 +1,97 @@
-# React + Vite
+# 🌿 ConsciousCart
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ConsciousCart is a modern React web application that helps users discover **safe, non-toxic alternatives** to everyday products like personal care items, food, and lifestyle essentials.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🎯 Problem Statement
 
-## React Compiler
+Many commonly used products contain harmful chemicals, but users are often unaware of safer alternatives. Even when they are aware, it is difficult to find reliable and curated options in one place.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**ConsciousCart solves this problem** by:
+- Curating eco-friendly product alternatives  
+- Explaining why they are better  
+- Providing a smooth and intuitive user experience  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+### 🔐 Authentication
+- Google Sign-In using Firebase  
+- Protected routes  
+
+### 🏠 Dashboard
+- Featured product slider  
+- Top Conscious Picks  
+- Category-based browsing  
+
+### 📂 Categories
+- Personal Care  
+- Food  
+- Clothing  
+- Daily Essentials  
+- Lifestyle  
+
+### 🔍 Search
+- Real-time product search  
+- Filters by product name, category, and alternatives  
+
+### 📄 Product Details
+- Product name, rating, and price  
+- “Why this is better” section  
+- User reviews and ratings  
+- Add your own review  
+
+### ❤️ Save Products
+- Save/unsave using heart icon  
+- Persistent storage using localStorage  
+- Dedicated Saved page  
+
+### 💬 Reviews System
+- Add comments and ratings  
+- Dynamic updates  
+
+### 🎨 UI/UX
+- Clean, eco-themed design  
+- Responsive layout  
+- Smooth interactions  
+
+---
+
+## 🧠 Tech Stack
+
+- **Frontend:** React (Functional Components)  
+- **Styling:** Tailwind CSS  
+- **Routing:** React Router  
+- **State Management:** Context API  
+- **Authentication:** Firebase (Google Auth)  
+- **Storage:** localStorage  
+- **Icons:** Font Awesome (CDN)  
+
+---
+
+## ⚛️ React Concepts Used
+
+### Core Concepts
+- Functional Components  
+- Props  
+- useState  
+- useEffect  
+- Conditional Rendering  
+- Lists & Keys  
+
+### Intermediate Concepts
+- Lifting State Up  
+- Controlled Components  
+- React Router  
+- Context API  
+
+### Advanced Concepts
+- Component optimization  
+- Clean architecture  
+- Reusable components  
+
+---
+
+## 📁 Project Structure
