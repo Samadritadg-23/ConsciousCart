@@ -6,6 +6,8 @@ import { useAuth } from "./context/AuthContext";
 import AllProducts from "./pages/AllProducts";
 import ProductPage from "./pages/ProductPage";
 import SavedPage from "./pages/SavedPage";
+import { useEffect } from 'react';
+import Brandlogo from './assets/Brandlogo.jpeg';
 
 const ProtectedRoute = ({ children }) => {
   const { user } = useAuth();
@@ -13,6 +15,17 @@ const ProtectedRoute = ({ children }) => {
 };
 
 function App() {
+  useEffect(() => {
+    const link = document.querySelector("link[rel~='icon']");
+    if (!link) {
+      const newLink = document.createElement('link');
+      newLink.rel = 'icon';
+      document.getElementsByTagName('head')[0].appendChild(newLink);
+      newLink.href = Brandlogo;
+    } else {
+      link.href = Brandlogo;
+    }
+  }, []);
   return (
     <BrowserRouter>
       <Routes>
